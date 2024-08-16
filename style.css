@@ -4,7 +4,9 @@ body
     margin:0;
     width:100%;
     height:1200px;
-    background:black;
+    background-image: url("back.jpg");
+    overscroll-behavior-x: auto;
+    background-attachment: fixed;
 }
 .navbar, .right{
     display: flex;
@@ -14,16 +16,19 @@ body
 }
 .right{
     width: fit-content;
-    gap: 10px;
+    gap: 15px;
     padding-right: 20px;
 }
 .home {
-    width: 50px;
+    width: 70px;
     height: 25px;
     background: none;
     color: white;
-    border-radius: 10px;
+    border-radius: 6px;
     transition: background-color 0.3s ease-out;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
 }
 .navbar{
     border-bottom: 1px solid white;
@@ -39,6 +44,10 @@ body
 .left
 {
     padding-left: 20px;
+    height:50px;
+    width:50px;
+    background-image: url("logo.png");
+    background-position: top;
 }
 .home:active{
     color: white;
