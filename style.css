@@ -57,3 +57,8 @@ body
 .home:active{
     color: white;
 }
+.footer{
+    justify-self:bottom; 
+    height:100px;
+    width:100%;
+}
