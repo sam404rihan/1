@@ -7,6 +7,7 @@ body
     background-image: url("img/back.jpg");
     overscroll-behavior-x: auto;
     background-attachment: fixed;
+    overflow-x: hidden;
 }
 .navbar, .right{
     display: flex;
